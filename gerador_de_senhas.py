@@ -9,3 +9,4 @@ rnd = random.SystemRandom()
 
 print("Senha gerada: ")
 print("".join(rnd.choice(chars) for i in range(tamanho)))
+ 
