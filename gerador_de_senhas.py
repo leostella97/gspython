@@ -15,5 +15,5 @@ rnd = random.SystemRandom()
 print("Senha gerada: ")
 
 # Gera a senha a ser mostrada
-print("".join(rnd.choice(chars) for i in range(tamanho)))
+print("".join(rnd.choice(chars) for i in range(tamanho))) 
  
