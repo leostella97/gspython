@@ -21,3 +21,5 @@ Na linha 19, é criado um widget "Entry" para exibir a senha gerada. O widget é
 Na linha 21, é criado um widget "Label" para exibir o texto "Desenvolvido por Leonardo Stella" em azul e com um cursor do tipo "hand2". O widget é posicionado na quarta linha e primeira coluna da janela utilizando o método "grid". Além disso, a linha 22 faz com que a função "abrir_link" seja chamada quando o widget é clicado, enquanto as linhas 23 e 24 fazem com que o widget seja sublinhado quando o cursor está sobre ele e desfazem o sublinhado quando o cursor sai.
 
 Por fim, a linha 26 inicia o loop principal da interface gráfica, mantendo a janela aberta até que o usuário a feche.
+
+<a hreh="https://github.com/leostella97/gspython/raw/main/Execut%C3%A1vel/gerador_de_senhas.exe">> Download</a>
