@@ -24,4 +24,4 @@ Por fim, a linha 26 inicia o loop principal da interface gráfica, mantendo a ja
 
 <a href="https://github.com/leostella97/gspython/blob/main/Execut%C3%A1vel/gerador_de_senhas.exe">> Download</a>
 <br>
-<a href="http://senha.lesttech.com.br/">Sistema Web</a>
+<a href="http://senha.lesttech.com.br/">> Sistema Web</a>
