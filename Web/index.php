@@ -13,9 +13,14 @@
 	<?php
 		if ($_SERVER["REQUEST_METHOD"] == "POST") {
 			$tamanho = $_POST["tamanho"];
-			$senha = exec("python3 gerador_de_senhas.py $tamanho");
+			$senha = shell_exec("python gerador_de_senhas.py $tamanho");
+			// var_dump($senha);
 			echo "Senha gerada: $senha";
 		}
 	?>
+<br><br><br>
+<footer>
+	<a target="_blank" href="https://leonardostella.lesttech.com.br/">Desenvolvido por Leonardo Stella</a>
 </body>
 </html>
+
