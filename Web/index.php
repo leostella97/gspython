@@ -6,7 +6,7 @@
 	<title>Gerador de Senhas</title>
 </head>
 <body>
-	<div>
+	<div class="text-center">
 	<h1>Gerador de Senhas</h1>
 	<form action="" method="post">
 		Tamanho da senha: <input type="number" name="tamanho" min="1" max="100"><br><br>
