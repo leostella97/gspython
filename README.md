@@ -22,6 +22,8 @@ Na linha 21, é criado um widget "Label" para exibir o texto "Desenvolvido por L
 
 Por fim, a linha 26 inicia o loop principal da interface gráfica, mantendo a janela aberta até que o usuário a feche.
 
-<a href="https://github.com/leostella97/gspython/blob/main/Execut%C3%A1vel/gerador_de_senhas.exe">> Download</a>
+<b>Download</b>
+<br>
+<a href="https://github.com/leostella97/gspython/blob/main/Execut%C3%A1vel/gerador_de_senhas.exe">> Windows</a>
 <br>
 <a href="http://senha.lesttech.com.br/">> Sistema Web</a>
