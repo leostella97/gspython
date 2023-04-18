@@ -6,6 +6,17 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 	<title>Gerador de Senhas</title>
 	<link rel="icon" href="img/password.png" type="image/png">
+	<style>
+		*{
+			padding-right: 4px;
+			padding-left: 4px;
+		}
+		.script {
+		word-break: break-all;
+		padding-right: 4px;
+		padding-left: 4px;
+		}
+	</style>
 </head>
 <body>
 <div class="d-flex justify-content-center mt-3">
@@ -16,6 +27,7 @@
 		<input type="submit" value="Gerar Senha">
 	</form>
 	<br>
+	<div class="script">
 	<?php
 		if ($_SERVER["REQUEST_METHOD"] == "POST") {
 			$tamanho = $_POST["tamanho"];
@@ -24,6 +36,7 @@
 			echo "Senha gerada: $senha";
 		}
 	?>
+	</div>
 <br><br><br>
 	<a target="_blank" href="https://leonardostella.lesttech.com.br/">Desenvolvido por Leonardo Stella</a>
 	</div>
