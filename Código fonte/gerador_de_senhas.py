@@ -2,7 +2,7 @@ import tkinter as tk
 import random
 import string
 import webbrowser
-
+ 
 def gerar_senha():
     tamanho = int(entrada_tamanho.get())
     chars = string.ascii_letters + string.digits + '!@#$%&*()-+=,.;:/?[{<>}]qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890'
