@@ -1,4 +1,3 @@
-# CLI password generator
 import argparse
 import secrets
 import string
